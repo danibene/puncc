@@ -15,16 +15,16 @@ the api, please create an [issue first](https://github.com/deel-ai/puncc/issues/
 
   `make prepare-dev && source puncc-dev-env/bin/activate`.
 
-Welcome to the team !
+Welcome to the team!
 
 
 ## Tests
 
 To run test `make test`
-This command activate your virtual environment and launch the `tox` command.
+This command activates your virtual environment and launches the `tox` command.
 
 
-`tox` on the otherhand will do the following:
+`tox` on the other hand, will do the following:
 - run pytest on the tests folder with python 3.8+
 - run pylint on *puncc* main files
 > Note: It is possible that pylint throw false-positive errors. If the linting test failed please check first pylint output to point out the reasons.
@@ -34,7 +34,7 @@ Please, make sure you run all the tests at least once before opening a pull requ
 A word about [Pylint](https://pypi.org/project/pylint/):
 > Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
 
-Basically, it will check that your code follows a certain number of convention. Any Pull Request will go through a Github workflow ensuring that your code respect the Pylint conventions (most of them at least).
+Basically, it will check that your code follows a certain number of conventions. Any Pull Request will go through a Github workflow ensuring that your code respects the Pylint conventions (most of them at least).
 
 ## Submitting Changes
 
