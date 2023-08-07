@@ -59,7 +59,7 @@ and install the requirements:
 make install-user
 ```
 
-* For developpers:
+* For developers:
 
 ```bash
 make prepare-dev
